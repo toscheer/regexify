@@ -1,0 +1,58 @@
+{
+  "states": 5,
+  "alphabet": ["a", "b"],
+  "initial": 1,
+  "accept": [5],
+  "transitions": [
+    {
+      "start": 1,
+      "input": "a",
+      "end": 2
+    },
+    {
+      "start": 1,
+      "input": "b",
+      "end": 1
+    },
+	{
+      "start": 2,
+      "input": "a",
+      "end": 3
+    },
+    {
+      "start": 2,
+      "input": "b",
+      "end": 1
+    },
+	{
+      "start": 3,
+      "input": "a",
+      "end": 4
+    },
+    {
+      "start": 3,
+      "input": "b",
+      "end": 1
+    },
+	{
+      "start": 4,
+      "input": "a",
+      "end": 5
+    },
+    {
+      "start": 4,
+      "input": "b",
+      "end": 1
+    },
+	{
+      "start": 5,
+      "input": "a",
+      "end": 5
+    },
+    {
+      "start": 5,
+      "input": "b",
+      "end": 5
+    }
+  ]
+}
